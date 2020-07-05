@@ -25,11 +25,11 @@ __The library <SPI.h> is included in the program for using the following functio
 
 *SPI.begin()*
 
-  To Initialize the SPI bus by setting SCK, MOSI, and SS to outputs, pulling SCK and MOSI low, and SS high.
+   To Initialize the SPI bus by setting SCK, MOSI, and SS to outputs, pulling SCK and MOSI low, and SS high.
 
 *SPI.setClockDivider(divider)*
 
-  To Set the SPI clock divider relative to the system clock. The available dividers are 2, 4, 8, 16, 32, 64 or 128.
+   To Set the SPI clock divider relative to the system clock. The available dividers are 2, 4, 8, 16, 32, 64 or 128.
 
 *SPI.transfer(val)*
 
