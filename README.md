@@ -25,12 +25,16 @@ __The library <SPI.h> is included in the program for using the following functio
 
 *SPI.begin()*
 
-To Initialize the SPI bus by setting SCK, MOSI, and SS to outputs, pulling SCK and MOSI low, and SS high.
+  To Initialize the SPI bus by setting SCK, MOSI, and SS to outputs, pulling SCK and MOSI low, and SS high.
 
 *SPI.setClockDivider(divider)*
 
-To Set the SPI clock divider relative to the system clock. The available dividers are 2, 4, 8, 16, 32, 64 or 128.
+  To Set the SPI clock divider relative to the system clock. The available dividers are 2, 4, 8, 16, 32, 64 or 128.
 
 *SPI.transfer(val)*
 
-This function is used to simultaneous send and receive the data between master and slave.
+  This function is used to simultaneous send and receive the data between master and slave.
+
+2.You need to make the circuit (*I mad it with ISIS Proteus, it was just a choice*)
+
+  check the circuit picture in the repository the file name : "Circuit_Picture.jpg"
